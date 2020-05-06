@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/displayText2"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_gravity="center|left"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:singleLine="false"
+        android:text="Имя:\nЦена:\nКоличество:"
+        android:textSize="22sp"
+
+        />
+
+    <TextView
+        android:id="@+id/displayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:singleLine="false"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/displayid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="222dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center|bottom"
+        android:text="Купить" />
+
+</FrameLayout>
